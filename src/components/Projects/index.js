@@ -3,19 +3,53 @@ import Card from "react-bootstrap/Card";
 import { Col, Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import CardGroup from "react-bootstrap/CardGroup";
-
+import Carousel from "react-bootstrap/Carousel";
 
 
 
 function Projects() {
+
 const projectList = [
   {
-    name: "Example",
-    image: require("../../images/background.jpg"),
+    name: "2-Point Perspective",
+    image: require("../../images/2point.png"),
     description:
-      "Students learned about painting by painting a painting.",
-    link: "https://mighty-reef-11767.herokuapp.com/",
-  }
+      "Foundations: observations and perception. The student develops and expands visual literacy skills using critical thinking. Students are expected to compare and contrast the elements of art, including line, shape, color, texture, form, space, and value, as the fundamentals of art in personal artworks.",
+  },
+
+  {
+    name: "Ceramics and Clay",
+    image: require("../../images/ceramics.png"),
+    description:
+      "Foundations: observations and perception. The student develops and expands visual literacy skills using critical thinking. Students are expected to compare and contrast the elements of art, including line, shape, color, texture, form, space, and value, as the fundamentals of art in personal artworks.",
+  },
+  {
+    name: "Hispanic Heritage",
+    image: require("../../images/hispanic.png"),
+    description:
+      "Foundations: observations and perception. The student develops and expands visual literacy skills using critical thinking. Students are expected to compare and contrast the elements of art, including line, shape, color, texture, form, space, and value, as the fundamentals of art in personal artworks.",
+  },
+
+  {
+    name: "Civil Engineering",
+    image: require("../../images/civil.png"),
+    description:
+      "Foundations: observations and perception. The student develops and expands visual literacy skills using critical thinking. Students are expected to compare and contrast the elements of art, including line, shape, color, texture, form, space, and value, as the fundamentals of art in personal artworks.",
+  },
+
+  {
+    name: "Civil Engineering",
+    image: require("../../images/civil.png"),
+    description:
+      "Foundations: observations and perception. The student develops and expands visual literacy skills using critical thinking. Students are expected to compare and contrast the elements of art, including line, shape, color, texture, form, space, and value, as the fundamentals of art in personal artworks.",
+  },
+
+  {
+    name: "McNay Art Musuem Spotlight Program",
+    image: require("../../images/spotlight.png"),
+    description:
+      "Foundations: observations and perception. The student develops and expands visual literacy skills using critical thinking. Students are expected to compare and contrast the elements of art, including line, shape, color, texture, form, space, and value, as the fundamentals of art in personal artworks.",
+  },
 ];
 
  const render = (proj) => { 
@@ -29,7 +63,7 @@ const projectList = [
           <Card.Body>
             <Card.Title>{proj.name}</Card.Title>
             <Card.Text>{proj.description}</Card.Text>
-            <Button href={proj.link}>Go to Website</Button>
+            <Button href={proj.image} target="blank">Open Image</Button>
           </Card.Body>
         </Card>
       </Col>
@@ -44,9 +78,9 @@ const projectList = [
       </Card.Header>
       <CardGroup className="justify-content-center projContainer">
         {projectList.map(render)}
-      </CardGroup>
-    </>
-  );
+      </CardGroup> 
+  </>
+);
 }
 
 export default Projects;
