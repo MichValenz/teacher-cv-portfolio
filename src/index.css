@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+header {
+  padding: 20px 35px;
+  background-image: url("./images/background.jpg");
+  background-size: cover;
+  background-position: 80%;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  cursor: pointer;
+
+}
+
+h1 {
+  color: #2e374d
+}
+header h2 {
+  font-weight: bold;
+  font-size: 40px;
+  color: #2e374d;
+  margin: 0;
+}
+
+header a {
+  text-decoration: none;
+  color: #2e374d;
+}
+
+header nav {
+  margin: 7px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.navLinks{
+  padding: 10px 15px;
+  font-weight: bold;
+  font-size: 1.75vw;
+  color: #2e374d;
+  
+}
+
+.hero {
+  background-image: url("./images/background.jpg");
+  background-size: cover;
+  background-position: 80%;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  height: 200px;
+}
+
+#aboutMe {
+  padding: 10px;
+ 
+
+}
+
+
+.navActive {
+  background-color: #2e374d;
+  color: #F9F9F9;
+  
+}
+
+.box {
+  background-color: #F9F9F9;
+}
+
+.container {
+
+  width: 100%;
+  margin:0;
+
+}
+
+.contactForm {
+ padding: 20px;
+}
+
+.project {
+  padding: 15px;
+  width: 100%;
+  margin: 10px;
+
+}
+
+.projContainer {
+padding: 15px;
+}
+
+
+.contact {
+  background-image: url("./images/background.jpg");
+  height: cover;
+  background-size: cover;
+  background-position: 80%;
+  background-attachment: fixed;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.contact-info h3 {
+  color: #2e374d;
+  font-size: 25px;
+}
+
+
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+footer {
+  color: white;
+  background-color: #000000;
+  background-size: cover;
+  background-position: fixed;
+  background-attachment: fixed;
+  padding: 10px;
+
+  
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+
+
+}
+
+
+@media screen and (max-width: 980px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
+
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .navLinks{
+    font-size: 20px;
+  }
+}
