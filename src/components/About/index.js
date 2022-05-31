@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Col, Row } from 'react-bootstrap';
 import Figure from "react-bootstrap/Figure";
-// import headshot from "../../images/headshot.png"
+import headshot from "../../images/headshot.png"
 
 
 function About() {
@@ -23,7 +23,7 @@ function About() {
                   insert text here
             </p>
           </Col>
-          {/* <Figure>
+          <Figure>
             <Figure.Image
               width={171}
               height={180}
@@ -31,7 +31,7 @@ function About() {
               className="img-fluid rounded-circle"
               alt="headshot of Cristina Valenzuela"
             />
-          </Figure> */}
+          </Figure>
         </Row>
       </Container>
     </>
