@@ -44,12 +44,6 @@ const projectList = [
       "Foundations: observations and perception. The student develops and expands visual literacy skills using critical thinking. Students are expected to compare and contrast the elements of art, including line, shape, color, texture, form, space, and value, as the fundamentals of art in personal artworks.",
   },
 
-  {
-    name: "McNay Art Musuem Spotlight Program",
-    image: require("../../images/spotlight.png"),
-    description:
-      "Foundations: observations and perception. The student develops and expands visual literacy skills using critical thinking. Students are expected to compare and contrast the elements of art, including line, shape, color, texture, form, space, and value, as the fundamentals of art in personal artworks.",
-  },
 ];
 
  const render = (proj) => { 
@@ -58,7 +52,7 @@ const projectList = [
   return (
     <Row className="row">
       <Col>
-        <Card className="project" style={{ width: "20rem", height: "28rem" }}>
+        <Card className="project" style={{ width: "20rem", height: "35rem" }}>
           <Card.Img className="work-1" variant="top" src={proj.image} />
           <Card.Body>
             <Card.Title>{proj.name}</Card.Title>
