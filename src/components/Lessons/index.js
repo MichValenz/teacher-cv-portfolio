@@ -11,34 +11,34 @@ function Lessons() {
 
 const lessonList = [
   {
-    name: "2-Point Perspective Lesson",
+    name: "One-Point Perspective",
+    image: require("../../images/onepoint.png"),
+  },
+  {
+    name: "Two-Point Perspective",
     image: require("../../images/2point.png"),
   },
 
   {
-    name: "Ceramics and Clay Lesson",
+    name: "Ceramics and Clay",
     image: require("../../images/ceramics.png"),
   },
   {
-    name: "Hispanic Heritage Lesson",
+    name: "Hispanic Heritage",
     image: require("../../images/hispanic.png"),
   },
 
   {
-    name: "Civil Engineering Lesson",
+    name: "Civil Engineering",
     image: require("../../images/civil.png"),
   },
 
   {
-    name: "One Point Lesson",
-    image: require("../../images/onepoint.png"),
-  },
-  {
-    name: "Shoe Design Lesson",
+    name: "Shoe Design",
     image: require("../../images/shoeDesign.png"),
   },
   {
-    name: "Still Life Lesson",
+    name: "Still Life",
     image: require("../../images/stillLife.png"),
   },
 ];

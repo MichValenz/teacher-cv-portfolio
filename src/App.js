@@ -41,17 +41,19 @@ function App() {
 
       <section id="my-contact" className="contact">
         <div className="contact-info">
-          <IconContext.Provider value={{ size: "3em", color: "#2e374d" }}>
+          <IconContext.Provider value={{ size: "3em", color: "#ffffff" }}>
             <h3>Contact Information</h3>
-            <p>Have any questions? Contact me:
-            </p>
+            <p>Have any questions? Contact me:</p>
             <a href="tel:432-556-0801">
               <AiFillPhone />
             </a>
-            <a href="mailto:cristinaovalenz@gmail.com" alt="email" target="blank">
+            <a
+              href="mailto:cristinaovalenz@gmail.com"
+              alt="email"
+              target="blank"
+            >
               <AiFillMail />
             </a>
-
           </IconContext.Provider>
         </div>
       </section>
