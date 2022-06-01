@@ -13,33 +13,34 @@ const lessonList = [
   {
     name: "2-Point Perspective Lesson",
     image: require("../../images/2point.png"),
-
   },
 
   {
     name: "Ceramics and Clay Lesson",
     image: require("../../images/ceramics.png"),
-
   },
   {
     name: "Hispanic Heritage Lesson",
     image: require("../../images/hispanic.png"),
-
-
   },
 
   {
     name: "Civil Engineering Lesson",
     image: require("../../images/civil.png"),
-
   },
 
   {
-    name: "Civil Engineering Lesson",
-    image: require("../../images/civil.png"),
-
+    name: "One Point Lesson",
+    image: require("../../images/onepoint.png"),
   },
-
+  {
+    name: "Shoe Design Lesson",
+    image: require("../../images/shoeDesign.png"),
+  },
+  {
+    name: "Still Life Lesson",
+    image: require("../../images/stillLife.png"),
+  },
 ];
 
  const render = (proj) => { 
