@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/teacher-cv-portfolio/static/css/main.110178e8.css",
+    "main.js": "/teacher-cv-portfolio/static/js/main.71c6c91d.js",
+    "static/js/787.bd6d99c3.chunk.js": "/teacher-cv-portfolio/static/js/787.bd6d99c3.chunk.js",
+    "static/media/jrvase19.png": "/teacher-cv-portfolio/static/media/jrvase19.90f644ca2d25817a53e6.png",
+    "static/media/mcnaytrip.png": "/teacher-cv-portfolio/static/media/mcnaytrip.af5d9a21991ed3a27bd5.png",
+    "static/media/jrvase18.png": "/teacher-cv-portfolio/static/media/jrvase18.e3784fddcc63e483d28a.png",
+    "static/media/jrvase22.png": "/teacher-cv-portfolio/static/media/jrvase22.7620853ccad483a21ea1.png",
+    "static/media/jrvase21.png": "/teacher-cv-portfolio/static/media/jrvase21.f22e9ca565442b8dda2d.png",
+    "static/media/stillLife.png": "/teacher-cv-portfolio/static/media/stillLife.cb0ba14ff81ba53cca49.png",
+    "static/media/2point.png": "/teacher-cv-portfolio/static/media/2point.e5de115b0e1f07e41fca.png",
+    "static/media/hispanic.png": "/teacher-cv-portfolio/static/media/hispanic.207319536fbc2b46bfcf.png",
+    "static/media/civil.png": "/teacher-cv-portfolio/static/media/civil.a01d102adfc65c989139.png",
+    "static/media/onepoint.png": "/teacher-cv-portfolio/static/media/onepoint.70165448eb07c4697213.png",
+    "static/media/spotlight.png": "/teacher-cv-portfolio/static/media/spotlight.478fe291c506b12d839e.png",
+    "static/media/latinaLeads.png": "/teacher-cv-portfolio/static/media/latinaLeads.2b0b5e76362e649cdf9e.png",
+    "static/media/mcnayShow.png": "/teacher-cv-portfolio/static/media/mcnayShow.ccfb6f1512ed8e24314b.png",
+    "static/media/nimitzArtShow19.png": "/teacher-cv-portfolio/static/media/nimitzArtShow19.152ff2425140a2062939.png",
+    "static/media/ceramics.png": "/teacher-cv-portfolio/static/media/ceramics.412bb60d5a4ef34fd5da.png",
+    "static/media/nimitzArtShow18.png": "/teacher-cv-portfolio/static/media/nimitzArtShow18.104bc8e71f9157efe2b1.png",
+    "static/media/brentwoodshow.png": "/teacher-cv-portfolio/static/media/brentwoodshow.448d56f997f786affab1.png",
+    "static/media/headshot.png": "/teacher-cv-portfolio/static/media/headshot.7742bac9053961abed10.png",
+    "static/media/shoeDesign.png": "/teacher-cv-portfolio/static/media/shoeDesign.9e9aed628fc87ca358db.png",
+    "static/media/background2.jpg": "/teacher-cv-portfolio/static/media/background2.3e112849a8feb1c7d81a.jpg",
+    "static/media/Resume.pdf": "/teacher-cv-portfolio/static/media/Resume.1e25734534bee6e85a23.pdf",
+    "index.html": "/teacher-cv-portfolio/index.html",
+    "main.110178e8.css.map": "/teacher-cv-portfolio/static/css/main.110178e8.css.map",
+    "main.71c6c91d.js.map": "/teacher-cv-portfolio/static/js/main.71c6c91d.js.map",
+    "787.bd6d99c3.chunk.js.map": "/teacher-cv-portfolio/static/js/787.bd6d99c3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.110178e8.css",
+    "static/js/main.71c6c91d.js"
+  ]
+}
