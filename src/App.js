@@ -12,7 +12,10 @@ function App() {
       name: "About Me",
     },
     { name: "Resume" },
-    { name: "Projects" },
+    { name: "Lessons" },
+    {
+      name: "Activities",
+    },
     {
       name: "Contact",
     },
@@ -40,7 +43,8 @@ function App() {
         <div className="contact-info">
           <IconContext.Provider value={{ size: "3em", color: "#2e374d" }}>
             <h3>Contact Information</h3>
-            <p>Have any questions? Contact me.</p>
+            <p>Have any questions? Contact me:
+            </p>
             <a href="tel:432-556-0801">
               <AiFillPhone />
             </a>

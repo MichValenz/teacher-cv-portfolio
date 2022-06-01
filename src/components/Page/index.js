@@ -1,23 +1,26 @@
 import React from 'react';
 import PageContent from '../PageContent';
 import About from '../About';
-import Projects from '../Projects';
 import Contact from '../Contact';
 import Resume from '../Resume';
+import Activities from '../Activities';
+import Lessons from '../Lessons';
 
 
 function Page({ currentPage }) {
 
   const renderPage = () => {
     switch (currentPage.name) {
-      case 'About Me':
+      case "About Me":
         return <About />;
-      case 'Projects':
-        return <Projects />;
-      case 'Contact':
+      case "Lessons":
+        return <Lessons />;
+      case "Contact":
         return <Contact />;
-      case 'Resume':
+      case "Resume":
         return <Resume />;
+      case "Activities":
+        return <Activities />;
       default:
         return <About />;
     }

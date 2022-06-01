@@ -1,32 +1,24 @@
 
 import React from "react";
-import { Container, Col, Row } from "react-bootstrap";
 
-
+import Card from "react-bootstrap/Card";
+import ListGroup from "react-bootstrap/ListGroup";
 function Contact() {
   return (
     <>
-      <Container>
-        <Row id="aboutMe">
-          <Col>
-            <h1 id="about">About Me</h1>
-            <p>insert text here</p>
-
-            <p>insert text here</p>
-
-            <p>insert text here</p>
-          </Col>
-          {/* <Figure>
-            <Figure.Image
-              width={171}
-              height={180}
-              src={headshot}
-              className="img-fluid rounded-circle"
-              alt="headshot of Cristina Valenzuela"
-            />
-          </Figure> */}
-        </Row>
-      </Container>
+      <Card style={{ width: "100%" }}>
+        <Card.Header>
+          {" "}
+          <h1>Contact Information </h1>{" "}
+        </Card.Header>
+        <ListGroup className="contact-page" variant="flush">
+          <ListGroup.Item>
+            {" "}
+            <h3>Phone:</h3> <a href="tel:432-556-0801">432-556-0801</a>
+          </ListGroup.Item>
+          <ListGroup.Item><h3>Email:</h3> <a href="mailto:cristinaovalenz@gmail.com"> cristinaovalenz@gmail.com</a></ListGroup.Item>
+        </ListGroup>
+      </Card>
     </>
   );
 }
